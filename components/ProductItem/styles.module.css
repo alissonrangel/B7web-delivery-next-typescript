@@ -1,0 +1,46 @@
+.container {
+  background: #FFFFFF;
+  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  display: block;
+  overflow: hidden;
+}
+
+.head{
+  height: 90px;
+  /* background-color: #ccc;    */
+}
+
+.info{  
+  /* align-items: center; */
+  padding: 13px;
+}
+
+.info .img{
+  text-align: center;
+  margin-top: -90px;
+}
+
+.info .img img{  
+  /* height: 120px; */
+  width: 100%;
+  height: auto;  
+}
+
+.info .catName{
+  color: #1b1b1b;
+  font-weight: 600;
+  font-size: 8px;
+}
+
+.info .name{
+  color: #1b1b1b;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.info .price{
+  /* color: #FB9400; */
+  font-weight: 600;
+  font-size: 15px;
+}
