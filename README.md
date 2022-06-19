@@ -1,5 +1,9 @@
 ## Projeto de um site Delivery - SaaS Multi-tenancy em desenvolvimento com o professor Bonieky Lacerda da empresa B7web de cursos
 
+## Saas - Software as a Service
+
+## Multi-tenancy - Vários inquilinos
+
 ## Tecnologias
 - typescript
 - NextJs

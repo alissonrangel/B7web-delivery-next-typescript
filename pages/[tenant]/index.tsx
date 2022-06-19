@@ -18,7 +18,7 @@ const Home = () => {
       <header className={styles.header}>
         <div className={styles.headerTop}>
           <div className={styles.headerTopLeft}>
-            <div className={styles.headerTitle}>Seja bem vindo (a) </div>
+            <div className={styles.headerTitle}>Seja Bem Vindo (a) 👋 </div>
             <div className={styles.headerSubtitle}>O que deseja pra hoje?</div>
           </div>
           <div className={styles.headerTopRight}>
