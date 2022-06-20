@@ -11,6 +11,7 @@
 ## Commands
 - npx create-next-app --typescript
 - npm install swiper // most modern free mobile touch slider
+- npm i -D @svgr/webpack
 
 ## Observações
 - no site npmjs -> swiper TS -> o TS significa que ela já tem suporte a Typescript, não precisa instalar os types
