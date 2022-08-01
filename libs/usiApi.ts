@@ -1,15 +1,26 @@
 import { Tenant } from "../types/Tenant";
 
+import { Product } from "../types/Product";
+
+const TEMPORARYoneProduct: Product = {
+  id: 1, 
+  image:'/tmp/burger.png', 
+  categoryName: 'Tradicional', 
+  name:'Texas Burger', 
+  price: 25.50,
+  description: '2 Blends de carne de 150g, Queijo Cheddar, Bacon Caramelizado, Salada, Molho da casa, Pão brioche artesanal, '
+}
+
 // export type getTenantResponse = {
 //   name: string;
 //   mainColor: string;
 //   secondColor: string;
 // }
 
-export const useApi = () => ({
+export const useApi = (tenantSlug: string) => ({
 
 
-  getTenant: (tenantSlug: string): boolean | Tenant => {
+  getTenant: (): boolean | Tenant => {
 
     switch (tenantSlug) {
       case 'b7burger':
@@ -31,6 +42,20 @@ export const useApi = () => ({
       default:
         return false
     }
+  },
+
+  getAllProducts: () => {
+    let products = [];
+
+    for (let i = 0; i < 10; i++) {
+      products.push(TEMPORARYoneProduct);      
+    }
+
+    return products
+  },
+
+  getProduct: (id: string) => {
+    return TEMPORARYoneProduct;
   }
 
 })
